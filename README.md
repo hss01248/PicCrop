@@ -28,13 +28,13 @@
 
 
 
- ![normalCrop](normalCrop.png)
+ ![normalCrop](normalCrop.jpg)
 
 
 
 ## 头像裁剪框
 
- ![avatarcrop](avatarcrop.png)
+ ![avatarcrop](avatarcrop.jpg)
 
 # 封装的api
 
