@@ -99,7 +99,9 @@ tag字段用于同一个页面多个地方接收裁剪图片的区分,如无需�
 # 混淆
 
   -dontwarn com.yalantis.ucrop**
+  
   -keep class com.yalantis.ucrop** { *; }
+  
   -keep interface com.yalantis.ucrop** { *; }
 
 
