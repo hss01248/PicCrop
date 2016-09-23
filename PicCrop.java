@@ -23,7 +23,7 @@ import java.io.File;
  *
  * Created by Administrator on 2016/9/23 0004.
  */
-public class PickCrop {
+public class PicCrop {
     public static final int REQUEST_SELECT_PICTURE = 0x01;
     private static final int REQUEST_CAMERA = 0x03;
     private static final String EXTRA_VIEW_TAG = "viewTag";//同一个页面多个地方需要选择图片时，config里tag字段用于标识
@@ -75,9 +75,9 @@ public class PickCrop {
 
     public static void cropFromGallery(Activity context,CropConfig config,int type) {
         if (config != null){
-            PickCrop.config = config;//怎么避免前后两次config
+            PicCrop.config = config;//怎么避免前后两次config
         }else {
-            PickCrop.config = new CropConfig();
+            PicCrop.config = new CropConfig();
         }
 
         setType(type);
@@ -109,9 +109,9 @@ public class PickCrop {
 
     public static void cropFromCamera(Activity context,CropConfig config,int type) {
         if (config != null){
-            PickCrop.config = config;
+            PicCrop.config = config;
         }else {
-            PickCrop.config = new CropConfig();
+            PicCrop.config = new CropConfig();
         }
 
         setType(type);
