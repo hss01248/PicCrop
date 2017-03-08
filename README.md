@@ -1,3 +1,7 @@
+## 注: 图片选择/拍照->裁剪->压缩 整个流程的操作已经串起到下面的库中
+[PhotoOut](https://github.com/hss01248/PhotoOut)
+
+
 # PicCrop
 对ucrop的封装工具类,让其使用更加快捷.
 
